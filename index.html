@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>background-color: #00000</style>
+  <style>body { background-color: #000 }</style>
   <meta name="google-site-verification" content="Drp7clk8IJB9NqTPuwJ-OKurXQ1DrMEsUOWuU7QJBLk" />
   <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" sizes="48x48" href="media/favicon.ico">
   <title>nokturne.dev</title>
 </head>
   <body>
@@ -24,9 +25,10 @@
     <br>
     <div class="card">
         <h1>nokturne.dev</h1>
-        <img src="media/logo.png">
+        <img src="media/logo.png" class="logo">
         <br>
-        <p>description</p>
+        <br>
+        <p>a place for my random ass projects</p>
         <div class="card-buttons">
             <button class="projects-btn">projects</button>
             <button class="github-btn">github</button>
@@ -37,15 +39,20 @@
     <h1>projects</h1>
     <div class="card-container">
       <div class="card">
-       <h2>project 1</h2>
-       <p>description</p>
+        <h2>project 1</h2>
+        <p>description</p>
+        <button class="github-btn" onclick="">this button doesn't work</button>
+        <img src="media/warning.svg">
       </div>
-      <div class="card">
-       <h2>project 2</h2>
-       <p>description</p>
+      <div class="card" id="div-button-synthv">
+        <h2>synthv projects (svps)</h2>
+        <p>for synthv covers</p>
+        <button class="github-btn" onclick="">this button doesn't work either</button>
+        <img src="media/synthv.png" class="synthv">
       </div>
     </div>
     <br>
-    <p style="text-align: center;">i am the text at the bottom of the page</p>
+    <br>
+    <footer style="text-align: center">i am the text at the bottom of the page</footer>
   </body>
 </html>
